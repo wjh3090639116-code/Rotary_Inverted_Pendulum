@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.fs
+*.vg
+*.db
+*.gprj.user
+logs/
+sim_work/
+sim/modelsim_sources/
+impl/*
+!impl/Rotary_Inverted_Pendulum_process_config.json
+
+~$*
+*.tmp
+*.log
+*.vvp

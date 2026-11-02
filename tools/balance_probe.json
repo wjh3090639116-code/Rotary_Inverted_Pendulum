@@ -1,0 +1,37 @@
+{
+  "balance": {
+    "零点 ADC": "1910",
+    "角度方向": "1",
+    "编码器方向": "-1",
+    "捕获窗口": "61",
+    "跌倒门限": "301",
+    "行程门限": "200",
+    "Kp": "10.0",
+    "Ki": "0.0",
+    "Kd": "20.0",
+    "转臂 Kp": "0.0",
+    "转臂 Kd": "0.0"
+  },
+  "swing": {
+    "pump_pwm": "120",
+    "pulse_ms": "20",
+    "bottom_code": "2560",
+    "target_code": "1808",
+    "upper_code": "1168",
+    "bottom_window": "32",
+    "rearm_distance": "160",
+    "travel": "80",
+    "stage2_pwm": "200",
+    "stage2_ms": "20"
+  },
+  "period_ms": "1.0",
+  "wrap_low": "0",
+  "wrap_high": "2640",
+  "format_version": 10,
+  "tilt_limit": "3",
+  "adc_units": "ads8688_high12",
+  "control_mode": "position_pd_native",
+  "outer_period_ms": "10.0",
+  "swing_mode": "two_stage_bottom_pulse",
+  "pwm_deadzone": "0"
+}

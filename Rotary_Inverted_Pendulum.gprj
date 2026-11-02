@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project><Template>FPGA</Template><Version>5</Version>
+<Device name="GW2A-18C" pn="GW2A-LV18PG256C7/I6">gw2a18c-012</Device>
+<FileList>
+ <File path="src/adc_one_euro_filter.v" type="file.verilog" enable="1"/>
+ <File path="src/ads8688_angle_if.v" type="file.verilog" enable="1"/>
+ <File path="src/ads8688_checked_if.v" type="file.verilog" enable="1"/>
+ <File path="src/ads8688_spi32.v" type="file.verilog" enable="1"/>
+ <File path="src/ads8688_test.cst" type="file.cst" enable="1"/>
+ <File path="src/ads8688_test.sdc" type="file.sdc" enable="1"/>
+ <File path="src/ads8688_uart_top.v" type="file.verilog" enable="1"/>
+ <File path="src/pid_native.v" type="file.verilog" enable="1"/>
+ <File path="src/target_trim_supervisor.v" type="file.verilog" enable="1"/>
+ <File path="src/position_pd_native.v" type="file.verilog" enable="1"/>
+ <File path="src/quadrature_decoder.v" type="file.verilog" enable="1"/>
+ <File path="src/swing_stage1_pulse.v" type="file.verilog" enable="1"/>
+ <File path="src/tb6612_pwm.v" type="file.verilog" enable="1"/>
+ <File path="src/uart_config_rx.v" type="file.verilog" enable="1"/>
+ <File path="src/uart_packet_tx.v" type="file.verilog" enable="1"/>
+ <File path="src/uart_rx.v" type="file.verilog" enable="1"/>
+ <File path="src/uart_tx.v" type="file.verilog" enable="1"/>
+ <File path="src/tft_button_anim.v" type="file.verilog" enable="1"/>
+ <File path="src/tft_panel.v" type="file.verilog" enable="1"/>
+ <File path="src/tft_pixel.v" type="file.verilog" enable="1"/>
+ <File path="src/tft_profile_boot.v" type="file.verilog" enable="1"/>
+ <File path="src/tft_region_scheduler.v" type="file.verilog" enable="1"/>
+ <File path="src/tft_spi_display.v" type="file.verilog" enable="1"/>
+ <File path="src/tft_spi_regions.v" type="file.verilog" enable="1"/>
+ <File path="src/tft_touch.v" type="file.verilog" enable="1"/>
+ <File path="src/board_target_control.v" type="file.verilog" enable="1"/>
+ <File path="src/tft_ui.v" type="file.verilog" enable="1"/>
+ <File path="src/reciprocal_key.v" type="file.verilog" enable="1"/>
+ <File path="src/reciprocal_settings_adapter.v" type="file.verilog" enable="1"/>
+</FileList></Project>
+
